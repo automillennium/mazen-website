@@ -52,7 +52,7 @@
 //       method: 'POST',
 //       headers: {
 //         'Content-Type': 'application/json',
-//         'Shopify-Storefront-Private-Token': process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN,
+//         'Shopify-Storefront-Private-Token': process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN || '',
 //       },
 //       body: JSON.stringify({ query }),
 //       next: { revalidate: 0 } 
@@ -196,7 +196,7 @@ async function getShopifyProducts() {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Shopify-Storefront-Private-Token': process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN,
+        'Shopify-Storefront-Private-Token': process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN || '',
       },
       body: JSON.stringify({ query }),
       next: { revalidate: 60 } // Revalidate every minute

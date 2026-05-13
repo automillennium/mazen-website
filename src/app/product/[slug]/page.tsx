@@ -41,7 +41,7 @@
 // //       method: 'POST',
 // //       headers: {
 // //         'Content-Type': 'application/json',
-// //         'Shopify-Storefront-Private-Token': process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN,
+// //         'Shopify-Storefront-Private-Token': process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN || '',
 // //       },
 // //       body: JSON.stringify({ query, variables: { handle } }),
 // //       next: { revalidate: 0 } // Always fresh during dev
