@@ -15,17 +15,17 @@ export function Footer() {
 
         <div className="flex flex-col space-y-4">
           <h4 className="font-bold tracking-[0.2em] uppercase text-white mb-2">&nbsp;</h4>
-          <Link href="/pages/faqs" className="hover:text-white transition-colors">FAQ</Link>
-          <Link href="/pages/shipping" className="hover:text-white transition-colors">Shipping</Link>
-          <Link href="/pages/framing" className="hover:text-white transition-colors">Framing</Link>
-          <Link href="/pages/press" className="hover:text-white transition-colors">Press</Link>
+          <Link href="/faq" className="hover:text-white transition-colors">FAQ</Link>
+          <Link href="/shipping" className="hover:text-white transition-colors">Shipping</Link>
+          <Link href="/framing" className="hover:text-white transition-colors">Framing</Link>
+          <Link href="/press" className="hover:text-white transition-colors">Press</Link>
         </div>
 
         <div className="flex flex-col space-y-4">
           <h4 className="font-bold tracking-[0.2em] uppercase text-white mb-2">&nbsp;</h4>
-          <Link href="/pages/t-cs" className="hover:text-white transition-colors">T&C</Link>
-          <Link href="/pages/t-cs" className="hover:text-white transition-colors">Privacy</Link>
-          <Link href="/pages/imprint" className="hover:text-white transition-colors">Imprint</Link>
+          <Link href="/terms" className="hover:text-white transition-colors">T&C</Link>
+          <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
+          <Link href="/imprint" className="hover:text-white transition-colors">Imprint</Link>
         </div>
 
         <div className="flex flex-col space-y-4">
