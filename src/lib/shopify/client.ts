@@ -1,7 +1,7 @@
 import { ShopifyProduct } from "@/types";
 
 const SHOPIFY_GRAPHQL_URL = "https://tuix0p-s8.myshopify.com/api/2024-04/graphql.json";
-const SHOPIFY_ACCESS_TOKEN = "ae97effa659b9202021f0da3cf0c25b5";
+const SHOPIFY_ACCESS_TOKEN = process.env.NEXT_PUBLIC_SHOPIFY_STOREFRONT_ACCESS_TOKEN || "";
 
 export async function getShopifyProduct(slug: string): Promise<ShopifyProduct | null> {
   const query = `

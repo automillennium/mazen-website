@@ -1,5 +1,5 @@
 export const SHOPIFY_ENDPOINT = "https://tuix0p-s8.myshopify.com/api/2024-04/graphql.json";
-export const SHOPIFY_TOKEN = process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN;
+export const SHOPIFY_TOKEN = process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN || "";
 
 export async function shopifyFetch(query: string, variables = {}) {
   try {

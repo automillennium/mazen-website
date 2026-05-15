@@ -26,7 +26,7 @@ export function Header({ cartCount = 0 }: { cartCount?: number }) {
           <Link href="/shop" className="text-[11px] tracking-[0.25em] uppercase font-bold hover:opacity-50 transition-opacity">Shop</Link>
           <Link href="/bespoke" className="text-[11px] tracking-[0.25em] uppercase font-bold hover:opacity-50 transition-opacity">Bespoke</Link>
           <Link href="/gallery" className="text-[11px] tracking-[0.25em] uppercase font-bold hover:opacity-50 transition-opacity">Gallery</Link>
-          <Link href="/about" className="text-[11px] tracking-[0.25em] uppercase font-bold hover:opacity-50 transition-opacity">About</Link>
+          <Link href="/about" className="text-[11px] tracking-[0.25em] uppercase font-bold hover:opacity-50 transition-opacity">About Me</Link>
         </div>
         
         {/* Cart - Right */}
