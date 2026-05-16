@@ -37,7 +37,7 @@ export function Footer() {
             <div className="w-8 h-5 bg-white rounded-sm"></div>
           </div>
           <div className="text-[10px] text-gray-500 mt-auto pt-8">
-            <p>&copy; {new Date().getFullYear()} Petrolified Clone. Static demonstration.</p>
+            <p>&copy; {new Date().getFullYear()} Mazen Sultan Studio. All rights reserved.</p>
           </div>
         </div>
       </div>

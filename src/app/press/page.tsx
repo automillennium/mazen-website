@@ -1,7 +1,7 @@
 import { InfoPageLayout } from "@/components/layouts/InfoPageLayout";
 
 export const metadata = {
-  title: "Press - Petrolified",
+  title: "Press - Mazen Sultan Studio",
   description: "Media mentions and press contact information.",
 };
 
@@ -26,7 +26,7 @@ export default function PressPage() {
       <section className="mb-12">
         <h2 className="text-2xl font-medium mb-6">Press Inquiries</h2>
         <p className="mb-8">
-          Are you a journalist or blogger interested in featuring Petrolified? We'd love to hear from you. We can provide high-resolution images, artist bios, and interview opportunities.
+          Are you a journalist or blogger interested in featuring Mazen Sultan Studio? We'd love to hear from you. We can provide high-resolution images, artist bios, and interview opportunities.
         </p>
         <div className="bg-[#f5f5f7] p-8 rounded-2xl inline-block">
           <p className="font-medium">Media Contact</p>

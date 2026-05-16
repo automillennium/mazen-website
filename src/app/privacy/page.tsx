@@ -1,7 +1,7 @@
 import { InfoPageLayout } from "@/components/layouts/InfoPageLayout";
 
 export const metadata = {
-  title: "Privacy Policy - Petrolified",
+  title: "Privacy Policy - Mazen Sultan Studio",
   description: "How we protect and handle your personal data.",
 };
 
@@ -42,7 +42,7 @@ export default function PrivacyPage() {
       <section className="mb-12">
         <h2 className="text-2xl font-medium mb-6">Your Rights</h2>
         <p>
-          You have the right to access, correct, or delete your personal information at any time. To exercise these rights, please contact us at privacy@petrolified.com.
+          You have the right to access, correct, or delete your personal information at any time. To exercise these rights, please contact us at studio@email.com.
         </p>
       </section>
     </InfoPageLayout>

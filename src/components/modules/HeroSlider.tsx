@@ -13,7 +13,7 @@ const SLIDES = [
   {
     id: 2,
     image: "https://www.petrolified.com/cdn/shop/files/CnV_Turbo_Orange_Land_Rover_Defender_slideshow-3000x2000_2000x.jpg",
-    caption: "02. Turbo Orange print from the Cool & Vintage x Petrolified collection.",
+    caption: "02. Turbo Orange print from the Cool & Vintage x Mazen Sultan Studio collection.",
     link: "/product/turbo-orange"
   },
   {

@@ -137,7 +137,7 @@ export function BespokeShowcase() {
       title: "Quality",
       text: (
         <>
-          <p>At Petrolified, every print is produced with the same level of precision and attention as the vehicles that inspire them.</p>
+          <p>At Mazen Sultan Studio, every print is produced with the same level of precision and attention as the vehicles that inspire them.</p>
           <p>Every piece is now professionally Giclée printed using a large-format Epson printer. With 9 separate inks, the printer delivers smoother gradients, richer tones, and a print resolution far beyond standard commercial prints.</p>
           <p>We chose Hahnemühle Pearl paper with a satin finish. It offers vibrant colors, strong contrast, exceptional sharpness, and a subtle sheen that perfectly complements the artwork.</p>
           <p>This is museum-quality printing designed to remain beautiful for decades to come.</p>
@@ -162,7 +162,7 @@ export function BespokeShowcase() {
       title: "Packaging",
       text: (
         <>
-          <p>Petrolified takes extra care to make sure every print reaches you in perfect condition.</p>
+          <p>Mazen Sultan Studio takes extra care to make sure every print reaches you in perfect condition.</p>
           <p>Before shipping, each print is thoroughly checked and securely wrapped between protective paper sheets.</p>
           <p>The artwork is then packed inside a durable cardboard tube designed to prevent bending or damage during transit. Both ends of the tube are sealed with aluminum caps for additional protection.</p>
         </>

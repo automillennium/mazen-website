@@ -158,7 +158,7 @@ import { ProductCard } from "@/components/modules/product/ProductCard";
 
 export const metadata = {
   title: "Shop - Collection",
-  description: "Explore archival automotive prints from Petrolified and Cool & Vintage.",
+  description: "Explore archival automotive prints from Mazen Sultan Studio.",
 };
 
 async function getShopifyProducts() {
@@ -221,7 +221,7 @@ export default async function Shop() {
     price: `${parseInt(prod.priceRange.minVariantPrice.amount).toLocaleString()} ${prod.priceRange.minVariantPrice.currencyCode}`,
   });
 
-  const petrolifiedProducts = allProducts
+  const studioProducts = allProducts
     .filter((p: any) => ["Petrolified", "Image store"].includes(p.vendor))
     .map(formatProduct);
 
@@ -247,7 +247,7 @@ export default async function Shop() {
         </div>
       </section>
 
-      {/* ── PETROLIFIED COLLECTION ── */}
+      {/* ── STUDIO COLLECTION ── */}
       <section className="bg-white pt-32 pb-24">
         <div className="max-w-[1200px] mx-auto px-6">
           <header className="text-center mb-32">
@@ -265,7 +265,7 @@ export default async function Shop() {
           </header>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-32">
-            {petrolifiedProducts.map((p: any) => (
+            {studioProducts.map((p: any) => (
               <ProductCard key={p.slug} {...p} />
             ))}
           </div>

@@ -1,7 +1,7 @@
 import { InfoPageLayout } from "@/components/layouts/InfoPageLayout";
 
 export const metadata = {
-  title: "Imprint - Petrolified",
+  title: "Imprint - Mazen Sultan Studio",
   description: "Legal information about the business.",
 };
 

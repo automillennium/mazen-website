@@ -303,7 +303,7 @@ export default function BespokePage() {
               <div className="bg-[#e8e8e8] text-[#1d1d1f] p-8 md:p-12 rounded-xl grid grid-cols-4 gap-0 border-[3px] border-[#1d1d1f]">
                  <div className="col-span-3 border-r-[2px] border-b-[2px] border-[#1d1d1f] p-4 text-left">
                     <span className="text-[9px] font-black uppercase tracking-tighter">Owner / For</span>
-                    <div className="h-6 mt-1 border-b border-[#1d1d1f]/20 font-serif italic text-xl">Mazen Sulthan</div>
+                    <div className="h-6 mt-1 border-b border-[#1d1d1f]/20 font-serif italic text-xl">Mazen Sultan</div>
                  </div>
                  <div className="col-span-1 border-b-[2px] border-[#1d1d1f] p-4 text-left">
                     <span className="text-[9px] font-black uppercase tracking-tighter">Date</span>
@@ -328,7 +328,7 @@ export default function BespokePage() {
             className="bg-[#0071e3] text-white px-12 py-4 rounded-full text-[16px] font-medium hover:bg-[#0077ed] inline-flex items-center justify-center"
          >
             <MagneticButton>
-              Contact Martin
+              Contact Mazen
             </MagneticButton>
          </Link>
       </section>

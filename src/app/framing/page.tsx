@@ -1,7 +1,7 @@
 import { InfoPageLayout } from "@/components/layouts/InfoPageLayout";
 
 export const metadata = {
-  title: "Framing Guide - Petrolified",
+  title: "Framing Guide - Mazen Sultan Studio",
   description: "How to frame your archival automotive prints easily and affordably.",
 };
 
@@ -14,7 +14,7 @@ export default function FramingPage() {
       <section className="mb-12">
         <h2 className="text-2xl font-medium mb-6">Designed for Ease</h2>
         <p>
-          One of our core goals is to make high-quality art accessible. That's why every Petrolified print is designed to fit standard, off-the-shelf frame sizes. You won't need expensive custom framing to make your walls look gallery-ready.
+          One of our core goals is to make high-quality art accessible. That's why every Mazen Sultan Studio print is designed to fit standard, off-the-shelf frame sizes. You won't need expensive custom framing to make your walls look gallery-ready.
         </p>
       </section>
 

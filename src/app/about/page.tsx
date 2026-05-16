@@ -296,7 +296,7 @@ export default function AboutPage() {
           >
             <img
               src="https://www.petrolified.com/cdn/shop/files/About_Profile_Wide_11505769-74a8-4d7b-aedf-e1be2a1ce464.jpg?v=1613158130"
-              alt="Martin Miškolci — Petrolified"
+              alt="Mazen Sultan — Mazen Sultan Studio"
               className="w-full h-full object-cover object-top"
               style={{ filter: "saturate(1.06) brightness(0.96)" }}
             />
@@ -311,14 +311,14 @@ export default function AboutPage() {
             Hello
           </p>
           <h1 style={{ fontSize: "clamp(36px, 5.5vw, 64px)", fontWeight: 300, letterSpacing: "-0.03em", lineHeight: 1.05, color: "#1d1d1f", marginBottom: "32px" }}>
-            About Martin
+            About Mazen
           </h1>
           <div style={{ width: "40px", height: "1px", background: "linear-gradient(90deg,#999,transparent)", marginBottom: "32px" }} />
           <p style={{ fontSize: "18px", fontWeight: 300, lineHeight: 1.82, color: "#555", letterSpacing: "-0.01em" }}>
-            My name is Martin Miškolci — an artist and designer born in 1996, currently
-            residing in Martin, Slovak Republic. I create automotive illustrations and fine
+            My name is Mazen Sultan — an artist and designer currently
+            residing in Dubai. I create automotive illustrations and fine
             art prints under my brand{" "}
-            <span style={{ color: "#1d1d1f", fontWeight: 400 }}>Petrolified</span>.
+            <span style={{ color: "#1d1d1f", fontWeight: 400 }}>Mazen Sultan Studio</span>.
           </p>
         </Reveal>
       </section>
@@ -434,7 +434,7 @@ export default function AboutPage() {
       <section className="w-full text-center" style={{ background: "#1d1d1f", paddingTop: "96px", paddingBottom: "96px" }}>
         <Reveal>
           <p className="uppercase text-[#666] mb-6" style={{ fontSize: "11px", letterSpacing: "0.3em", fontWeight: 400 }}>
-            Petrolified
+            Mazen Sultan Studio
           </p>
           <h2 style={{ fontSize: "clamp(30px, 4.5vw, 52px)", fontWeight: 300, letterSpacing: "-0.03em", color: "#f5f5f7", marginBottom: "44px", lineHeight: 1.1 }}>
             Automobiles. Illustrated.

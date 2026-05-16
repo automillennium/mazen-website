@@ -1,7 +1,7 @@
 import { InfoPageLayout } from "@/components/layouts/InfoPageLayout";
 
 export const metadata = {
-  title: "FAQ - Petrolified",
+  title: "FAQ - Mazen Sultan Studio",
   description: "Frequently asked questions about our archival automotive prints.",
 };
 

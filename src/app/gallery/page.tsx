@@ -7,7 +7,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 
-// ─── DATA ────────────────────────────────────────────────────────────────────
+// ─── DATA ──────────────────────────────────────────────────────────────────  
 const ITEMS = [
   {
     id: 1,

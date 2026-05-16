@@ -1,7 +1,7 @@
 import { InfoPageLayout } from "@/components/layouts/InfoPageLayout";
 
 export const metadata = {
-  title: "Shipping - Petrolified",
+  title: "Shipping - Mazen Sultan Studio",
   description: "Worldwide shipping information and packaging details.",
 };
 

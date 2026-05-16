@@ -5,7 +5,7 @@ import Link from "next/link";
 /**
  * 1. Data Fetching Logic
  */
-async function getPetrolifiedProducts() {
+async function getStudioProducts() {
   const query = `
     query getProducts {
       products(first: 20) {
@@ -58,7 +58,7 @@ async function getPetrolifiedProducts() {
  * 2. Main Page Component
  */
 export default async function Home() {
-  const products = await getPetrolifiedProducts();
+  const products = await getStudioProducts();
 
   const mappedProducts = products.map((p: any) => ({
     title: p.title,
@@ -82,7 +82,7 @@ export default async function Home() {
           Automotive Portraits
         </h1>
         <p className="text-[10px] sm:text-[11px] text-gray-500 tracking-[0.2em] uppercase">
-          Captured in clean illustrations by artist Martin Miškolci.
+          Captured in clean illustrations by artist Mazen Sultan.
         </p>
       </section>
 
@@ -175,7 +175,7 @@ export default async function Home() {
               <span className="block text-[11px] font-bold tracking-[0.4em] uppercase text-[#0066cc] mb-4">Heritage</span>
               <h2 className="text-2xl md:text-4xl font-semibold tracking-tight mb-6 md:mb-8 text-[#1d1d1f]">About Us</h2>
               <p className="text-base md:text-[17px] text-[#86868b] leading-relaxed mb-4 font-medium">
-                Born from a deep inclination towards drawing, art, and automotive design. Since launching in 2014, Petrolified has focused on capturing the soul of the machine.
+                Born from a deep inclination towards drawing, art, and automotive design. Mazen Sultan Studio focused on capturing the soul of the machine.
               </p>
               <div className="relative h-12 w-full flex justify-center md:justify-end">
                 <Link href="/about" className="md:absolute md:right-0 md:translate-x-[20%] text-[14px] bg-[#1d1d1f] text-white px-10 py-3 rounded-full font-semibold tracking-tight hover:bg-[#424245] transition-all z-30 shadow-lg whitespace-nowrap">

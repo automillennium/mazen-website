@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Petrolified - Automotive Art",
+  title: "Mazen Sultan Studio - Automotive Art",
   description: "Automotive portraits, captured in clean illustrations.",
 };
 

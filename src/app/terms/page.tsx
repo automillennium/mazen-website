@@ -1,7 +1,7 @@
 import { InfoPageLayout } from "@/components/layouts/InfoPageLayout";
 
 export const metadata = {
-  title: "Terms & Conditions - Petrolified",
+  title: "Terms & Conditions - Mazen Sultan Studio",
   description: "Our terms of service and purchasing conditions.",
 };
 
@@ -14,14 +14,14 @@ export default function TermsPage() {
       <section className="mb-12">
         <h2 className="text-2xl font-medium mb-6">1. Introduction</h2>
         <p>
-          Welcome to Petrolified. By accessing our website and purchasing our prints, you agree to comply with and be bound by the following terms and conditions.
+          Welcome to Mazen Sultan Studio. By accessing our website and purchasing our prints, you agree to comply with and be bound by the following terms and conditions.
         </p>
       </section>
 
       <section className="mb-12">
         <h2 className="text-2xl font-medium mb-6">2. Intellectual Property</h2>
         <p>
-          All artwork and illustrations featured on this website are the intellectual property of Martin Miškolci and Petrolified. Unauthorized reproduction or commercial use of our designs is strictly prohibited.
+          All artwork and illustrations featured on this website are the intellectual property of Mazen Sultan and Mazen Sultan Studio. Unauthorized reproduction or commercial use of our designs is strictly prohibited.
         </p>
       </section>
 
@@ -42,7 +42,7 @@ export default function TermsPage() {
       <section className="mb-12">
         <h2 className="text-2xl font-medium mb-6">5. Limitation of Liability</h2>
         <p>
-          Petrolified shall not be liable for any indirect, incidental, or consequential damages resulting from the use of our products or website.
+          Mazen Sultan Studio shall not be liable for any indirect, incidental, or consequential damages resulting from the use of our products or website.
         </p>
       </section>
     </InfoPageLayout>
